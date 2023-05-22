@@ -1,7 +1,7 @@
 :root {
     --primary-color: #19173C;
     --secondary-color: #fff;
-    --text-color: #000;
+    --tertiary-color: #000;
     --link-color: #9CF8F8;
   
     --font-size-small: 14px;
@@ -9,13 +9,13 @@
     --font-size-big: 36px;
   
     font-family: 'Antic Didone', serif;
-    color: #fff;
   }
 
   .link{
     color: var(--link-color);
   }
   .footer {
+    color: var(--secondary-color);
     font-size: var(--font-size-small);
     max-height: 20%;
     padding: 1%;
