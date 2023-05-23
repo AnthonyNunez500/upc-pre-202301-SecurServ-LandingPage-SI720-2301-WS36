@@ -118,10 +118,10 @@ nav ul li a:hover{
     .about-us{
       background-color: var(--primary-color);
       .container{
-        padding-left: 10%;
+        padding-left: 20%;
         padding-right: 10%;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 72px;
+        padding-bottom: 72px;
         display: flex;
         align-items: center;
         .container-column{
@@ -155,6 +155,10 @@ nav ul li a:hover{
       }
       .p3{
         padding-top: 5px;
+        font-size: 200%;
+      }
+      .contactenos{
+        font-size: 300%;
       }
       .imagenes{
         text-align: center;
