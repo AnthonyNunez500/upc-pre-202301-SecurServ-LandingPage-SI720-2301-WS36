@@ -81,6 +81,9 @@ nav ul li a:hover{
     transform: translateY(220px);
     text-shadow: 2px 2px black;
 }
+
+
+
   /*estilos de la sección about product*/
   .about-product{
     color: var(--primary-color);
@@ -94,6 +97,7 @@ nav ul li a:hover{
       .container-column{
         width: 60%;
         margin-right: 32px;
+        text-align: justify;
       }
       .image-container{
         width: 40%;
@@ -108,6 +112,55 @@ nav ul li a:hover{
       font-size: var(--font-size-big);
       font-weight: bold;
       margin-bottom: 32px;
+  }
+
+    /*estilos de la sección about us*/
+    .about-us{
+      background-color: var(--primary-color);
+      .container{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        align-items: center;
+        .container-column{
+          color: var(--secondary-color);
+          width: 60%;
+          margin-left: 32px;
+          text-align: justify;
+        }
+        .image-container{
+          width: 40%;
+          overflow:hidden;
+        }
+      }
+    }
+    .about-us p{
+        font-size: var(--font-size-small);
+    }
+    .about-us h2{
+        font-size: var(--font-size-big);
+        font-weight: bold;
+        text-align: start;
+        margin-bottom: 32px;
+    }
+  /* Contactos y apps */
+  .contactos{
+    .contact{
+      .contact-parrafo{
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+      }
+      .p3{
+        padding-top: 5px;
+      }
+      .imagenes{
+        text-align: center;
+        padding-bottom: 32px;
+      }
+    }
   }
   /*estilos del footer*/
   .footer {
@@ -129,6 +182,11 @@ nav ul li a:hover{
       align-items: center;
       .footer-column{
         width: calc(100%/3);
+      }
+      .footer-column p{
+        padding-right: 70px;
+        padding-top: 20px;
+        text-align: justify;
       }
     }
   }
